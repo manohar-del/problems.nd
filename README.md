@@ -33,4 +33,3 @@ This tool allows encoding and decoding with both **uppercase** and **lowercase**
 ### 🗝️ Decoding a Message
 ![Decoding Example](screenshots/decode.png)
 
-> 📁 Place your screenshots inside a folder named `screenshots/` in the repo.
