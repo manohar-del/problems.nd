@@ -1,7 +1,6 @@
 a = float(input("Enter a number: "))
 b = str(a)
 
-# Split integer and decimal parts
 if '.' in b:
     int_part, dec_part = b.split('.')
     dec_part = '.' + dec_part
@@ -9,7 +8,6 @@ else:
     int_part = b
     dec_part = ''
 
-# Reverse integer part to insert commas
 int_part = int_part[::-1]
 
 formatted = ''
@@ -18,9 +16,7 @@ for i in range(len(int_part)):
         formatted += ','
     formatted += int_part[i]
 
-# Reverse back to normal
 formatted = formatted[::-1]
 
-# Combine with decimal part
 formatted_number = formatted + dec_part
 print(formatted_number)
