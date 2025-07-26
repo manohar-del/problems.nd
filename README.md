@@ -33,7 +33,7 @@ This tool allows encoding and decoding with both **uppercase** and **lowercase**
 ### 🗝️ Decoding a Message
 ![Decoding Example](screenshots/decode.png)
 
---- END ---
+---                                     END                                     ---
 
 # 💰2.2_Indian Currency Formatter
 
