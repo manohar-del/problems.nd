@@ -67,7 +67,7 @@ In the Indian numbering system, large numbers are grouped differently compared t
 
 ---  END ---
 
-# 🔗 Combining Two Lists by Overlapping Positions
+# 🔗2.3_Combining Two Lists by Overlapping Positions
 
 This Python program merges two lists of elements, each element defined by a range of positions and associated values. The merge combines elements whose position intervals overlap by more than half, preserving the position of the element that appears first.
 
