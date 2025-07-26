@@ -33,7 +33,7 @@ This tool allows encoding and decoding with both **uppercase** and **lowercase**
 ### 🗝️ Decoding a Message
 ![Decoding Example](screenshots/decode.png)
 
----                                     END                                     ---
+---  END  ---
 
 # 💰2.2_Indian Currency Formatter
 
@@ -65,7 +65,66 @@ In the Indian numbering system, large numbers are grouped differently compared t
 ### 📈 Output Example
 ![Output Screenshot](screenshots/output.png)
 
+---  END ---
+
+# 🔗 Combining Two Lists by Overlapping Positions
+
+This Python program merges two lists of elements, each element defined by a range of positions and associated values. The merge combines elements whose position intervals overlap by more than half, preserving the position of the element that appears first.
+
 ---
 
+## 📜 Problem Statement
+
+Given two lists of elements where each element is structured as:
+
+## 🛠️ Features
+
+- ✅ Takes user input for two lists with multiple position-value segments.
+- ✅ Detects overlapping intervals using a threshold (>50% overlap).
+- ✅ Merges values of overlapping elements intelligently.
+- ✅ Maintains order based on left position.
+- ✅ Prints the merged list of elements clearly.
+
+## 📷 Screenshots
+
+### 📈 Output Example
+![Output Screenshot](screenshots/output1.png)
+
+---  END  ---
+
+# 💸2.4_Minimizing Loss
+
+Rajeev has a list of **projected house prices** over several years. He must **buy the house in one year and sell it in another**, **incurring a loss**. This program helps him find the **minimum financial loss** possible under those conditions.
+
+---
+
+## 🧠 Problem Statement
+
+Given a list of distinct house prices per year, identify:
+- The year to **buy** the house
+- The year to **sell** the house
+- The **minimum possible loss** Rajeev would incur (i.e., smallest difference between a higher buy price and a lower sell price)
+
+The constraint:  
+He must **buy before selling**, and it must result in a **loss**.
+
+---
+
+## ✨ Features
+
+- 📥 Accepts user-defined input: number of years and prices.
+- 🔍 Finds **only loss-incurring** transactions.
+- 📉 Outputs the **minimum loss** scenario.
+- 📅 Returns the **exact years** to buy and sell.
+- ✅ Handles all valid distinct price inputs.
+
+---
+
+## 📷 Screenshots
+
+### 📈 Output Example
+![Output Screenshot](screenshots/output2.png)
+
+---  END  ---
 
 
