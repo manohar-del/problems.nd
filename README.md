@@ -1,4 +1,4 @@
-# 🔐 Caesar Cipher Encoder/Decoder
+# 🔐2.1_Caesar Cipher Encoder/Decoder
 
 A simple Python implementation of the **Caesar Cipher**, one of the most well-known classical encryption techniques. This program allows you to **encode** or **decode** messages using a customizable shift value.
 
@@ -32,4 +32,40 @@ This tool allows encoding and decoding with both **uppercase** and **lowercase**
 
 ### 🗝️ Decoding a Message
 ![Decoding Example](screenshots/decode.png)
+
+--- END ---
+
+# 💰2.2_Indian Currency Formatter
+
+This is a simple Python program that formats any floating-point number into the Indian numbering format, inserting commas at the correct positions (Lakhs, Crores, etc.).
+
+---
+
+## 📜 Problem Statement
+
+In the Indian numbering system, large numbers are grouped differently compared to the Western system. This project takes a floating point number as input and converts it into a **comma-separated Indian currency format**:
+
+- Thousand → 1,000  
+- Lakh → 1,00,000  
+- Crore → 1,00,00,000  
+
+---
+
+## 🛠️ Features
+
+- ✅ Accepts user input (float)
+- ✅ Formats integer part with Indian grouping (3-2-2 pattern)
+- ✅ Preserves decimal places
+- ✅ Returns a properly formatted string
+
+---
+
+## 📷 Screenshots
+
+### 📈 Output Example
+![Output Screenshot](screenshots/output.png)
+
+---
+
+
 
